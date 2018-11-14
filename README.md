@@ -1,7 +1,7 @@
 # Python learning challenge
 
 Learn at least 3 programming languages simultaneously.
-Spend 15 minutes per language.
+Spend 15 minutes per language daily.
 This repo is for Python.
 
 Initial challenge - go through a Udemy course on Python for around 15 minutes daily.
