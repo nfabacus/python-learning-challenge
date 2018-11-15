@@ -6,4 +6,5 @@ This repo is for Python.
 
 Initial challenge - go through a Udemy course on Python for around 15 minutes daily.
 
-13th - 4th Nov, 2018 - First day. Installed Python 3 and made it work on IDE and terminal. Start over again the Udemy course on Python I did not finish previously.
+13th - 14th Nov, 2018 - First day. Installed Python 3 and made it work on IDE and terminal. Start over again the Udemy course on Python I did not finish previously.
+15th Nov - string, string formatting and string literal.
