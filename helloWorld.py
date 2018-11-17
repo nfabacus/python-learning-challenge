@@ -61,3 +61,15 @@ num_list.reverse()
 print(sorted_new_list)
 print(sorted_num_list)
 
+# dictionaries - equivalent to javascript JSON object
+my_dict = {'fruit': 'banana', 'vegetable': 'carrot', 'numberArr': [1, 2, 3]}
+print(my_dict['fruit'])
+print(my_dict['vegetable'])
+print(my_dict['numberArr'][1])
+my_dict['greeting'] = 'Hello'
+print(my_dict)
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.items())
+
+
