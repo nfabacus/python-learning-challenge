@@ -71,5 +71,8 @@ print(my_dict)
 print(my_dict.keys())
 print(my_dict.values())
 print(my_dict.items())
-
+my_first_tuple = (1,2,3, "Hello")
+print(my_first_tuple)
+print(my_first_tuple[3])  # tuple is very similar to list but
+if immutable:
 
