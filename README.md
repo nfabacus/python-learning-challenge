@@ -11,4 +11,5 @@ Initial challenge - go through a Udemy course on Python for around 15 minutes da
 Sat 17th Nov - Lists. dictionaries (equivalent to JSON object)
 21 Nov - tuples
 24 Nov - sets, reading and writing to files. comparision operators.
-Mon 26 Nov - adds some statements 
+Mon 26 Nov - adds some statements
+Sun 2nd Dec - review and for loop and while loop 
