@@ -13,3 +13,5 @@ Sat 17th Nov - Lists. dictionaries (equivalent to JSON object)
 24 Nov - sets, reading and writing to files. comparision operators.
 Mon 26 Nov - adds some statements
 Sun 2nd Dec - review and for loop and while loop 
+Thurs 6th Dec - Useful Operators
+Sat, 8th Dec - List Comprehensions
