@@ -5,7 +5,7 @@ def helloWorld():
 
 helloWorld()
 
-def helloPerson(name='somebody'):
+def helloPerson(name='somebody'):  # can have a default parameter
     print("Hello, " + name)
 
 helloPerson("Tony")
