@@ -16,3 +16,4 @@ Sun 2nd Dec - review and for loop and while loop
 Thurs 6th Dec - Useful Operators
 Sat, 8th Dec - List Comprehensions
 Tues, 11th Dec - Methods and Functions
+Sun, 16th Dec - OOP: Class, attributes, and methods

@@ -27,16 +27,16 @@ class Circle():
     # Class Object Attribute
     pi = 3.14
 
-    def __init__(self, radius =1):
+    def __init__(self, radius=1):
         self.radius = radius
-        self.area = radius * radius * Circle.pi
+        self.area = radius * radius * Circle.pi  # You can refer to class object attribute like this. e.g. Circle.pi
 
     # Method
     def get_circumference(self):
         return self.radius * self.pi * 2
 
 
-my_circle = Circle(radius=10)
+my_circle = Circle(radius=10)  # You do not need new keyword with Python.
 print(my_circle.get_circumference())
 print(my_circle.area)
 
