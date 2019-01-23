@@ -25,7 +25,7 @@ print('The {2} {1} {0}.'.format('fox', 'brown', 'quick'))
 print('The {q} {b} {f} {f}.'.format(f='fox', b='brown', q='quick'))
 print('My string is {}'.format(y))
 result = 100000/777
-print('The resut was {r:1.3f}'.format(r=result))
+print('The result was {r:1.3f}'.format(r=result))
 name = "Tony"
 print(f'Hello, his name is {name}.')
 
@@ -99,6 +99,9 @@ my_new_set = set(my_list)
 print('My new set converted from the list is {}'.format(my_new_set))
 
 print(set('Mississippi'))
+
+my_another_set = set([2, 'Yo', 5, 5, 6])
+print(my_another_set)
 
 # boolean
 # True, False with the first letter capitalised
