@@ -17,6 +17,7 @@ Thurs 6th Dec - Useful Operators
 Sat, 8th Dec - List Comprehensions
 Tues, 11th Dec - Methods and Functions
 Sun, 16th Dec - OOP: Class, attributes, and methods
-Sat, 22nd Dec - Inheritance and Polymorphism
+Sat, 22nd Dec - OOP: Inheritance and Polymorphism
 Wed, 23rd Jan, 2019 - Review of the previous learning as it has been a while.
 also, next time, review again from ListComprehensions.py
+Mon, 28th Jan - OOP: Special (Magic/Dunder) Methods
