@@ -43,3 +43,6 @@ I am also going to track my progress here
 ```
 https://progressmakr.com/progressposts/ckaqfidc300480819dmy0qjm7
 ```
+
+Friday, 29th May, 2020
+- 30 mins of reviewing previous learning.

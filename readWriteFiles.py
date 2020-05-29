@@ -16,7 +16,7 @@ with open('secondFile.txt', mode='w+') as f:
     # mode can be r w a - a for append.
     # r+ for reading and writing
     # w+ for writing and reading - OVERWRITES or create a new file!
-    f.write('YO! This is a new file content!')
+    f.write('YO! This is a new file content! \nSecond line')
 
 with open('secondFile.txt', mode='r') as f:
     anotherContents = f.read()

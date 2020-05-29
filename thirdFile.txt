@@ -1,2 +1,2 @@
-YO! This is a third file content 2!
+YO! This is a third file content!
 This is an additional comment!

@@ -63,19 +63,25 @@ print(sorted_new_list)
 print(sorted_num_list)
 
 # dictionaries - equivalent to javascript JSON object { : }
+print('////// dictionaries /////')
 my_dict = {'fruit': 'banana', 'vegetable': 'carrot', 'numberArr': [1, 2, 3]}
 print(my_dict['fruit'])
 print(my_dict['vegetable'])
 print(my_dict['numberArr'][1])
 my_dict['greeting'] = 'Hello'
 print(my_dict)
+
 print(my_dict.keys())
 print(my_dict.values())
 print(my_dict.items())
 
 # tuples ()
+print('')
+print('////// tuples /////')
 my_first_tuple = (0, 1, 5, 3, 5, 5, "Hello", 8, 5)
 print(my_first_tuple)
+
+print(type(my_first_tuple))
 print(my_first_tuple[3])  # tuple is very similar to list but is immutable.
 # tuples cannot be sorted
 countOfFive = my_first_tuple.count(5)  # count how many times 5 comes up in the tuple
@@ -83,6 +89,9 @@ print('count of five: ', countOfFive)
 print('indexOfHello: ', my_first_tuple.index('Hello'))
 
 #sets {}
+print('')
+print('////// sets /////')
+# set only holds unique values
 myset = set()
 myset.add(8)
 myset.add(6)
@@ -105,6 +114,8 @@ print(my_another_set)
 
 # boolean
 # True, False with the first letter capitalised
+# also, None
 
 # Comparision operator is almost the same as javascript, apart from ==, !=
 # Chaining Comparision operators - use 'and' and 'or' and 'not'
+
