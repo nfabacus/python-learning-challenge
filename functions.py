@@ -1,15 +1,15 @@
 # functions - def name_of_function():
 
-def helloWorld():
+def hello_world():
     print("Hello, World!")
 
-helloWorld()
+hello_world()
 
-def helloPerson(name='somebody'):  # can have a default parameter
+def hello_person(name='somebody'):  # can have a default parameter
     print("Hello, " + name)
 
-helloPerson("Tony")
-helloPerson()
+hello_person("Tony")
+hello_person()
 
 def add(a, b):
     '''
@@ -19,6 +19,7 @@ def add(a, b):
     '''
     return a + b
 
+help(add)
 answer = add(2, 3)
 print(answer)
 

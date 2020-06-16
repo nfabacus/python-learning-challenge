@@ -46,3 +46,6 @@ https://progressmakr.com/progressposts/ckaqfidc300480819dmy0qjm7
 
 Friday, 29th May, 2020
 - 30 mins of reviewing previous learning.
+
+Tuesday, 16th June, 2020
+- *args and **kwargs

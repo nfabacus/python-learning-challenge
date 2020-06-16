@@ -18,7 +18,7 @@ class Book():
         print('A book object has been deleted')
 
 # __str__ can return the string representation for the class
-b = Book('Python 101', 'Bob', 200);
+b = Book('Python 101', 'Bob', 200)
 print(b)
 print(len(b))
 

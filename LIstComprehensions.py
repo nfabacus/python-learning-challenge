@@ -9,6 +9,7 @@ print(mylist)
 #     print(x)
 
 # more concise way below - comprehension
+print('<<<<<<< List comprehension >>>>>>>>>>>>')
 mylist2 = [letter for letter in mystring]
 print(mylist2)
 

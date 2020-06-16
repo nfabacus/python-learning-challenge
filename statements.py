@@ -13,6 +13,16 @@ else:
     print("Work")
 
 
+my_items = ['test1', 'test2', 'test3', 6]
+if 'test3' in my_items:
+    print('test3 exists!')
+else:
+    print('No test3 found')
+
+
+print("")
+print("################# for loop ######################")
+
 my_iterable = [1,2,3]
 
 for item in my_iterable:
@@ -26,8 +36,11 @@ for item in my_tuple:
 my_list = [(1,2), (3,4), (5,6)]
 for item in my_list:
     print(item[0], item[1])
+
+# tuple unpacking
 for (a, b) in my_list:
     print(a, b)
+
 
 my_dictionary = { "color": "green", "height": 172, "shirt": "blue" }
 
@@ -43,6 +56,8 @@ for key in my_dictionary.keys():
 for i in range(10):
     print(f'for loop i is {i}')
 
+print("")
+print("################# while loop ######################")
 x = 0
 
 while x < 20:
@@ -60,14 +75,17 @@ else:
     print('x is not smaller than 5')
 
 
+print("")
+print("############## range #########################")
 # range
 for num in range(0, 11, 2):
     print(num)
 
-rangeToList = list(range(0, 11, 2))
+rangeToList = list(range(0, 11, 2))  # range(starting number, range, skip)
 print(rangeToList)
 
 # enumerate
+print('enumerate >>>>')
 word = 'abcde'
 for index, letter in enumerate(word):
     print(index)
@@ -117,11 +135,11 @@ from random import randint
 myInt = randint(0, 100)
 print(myInt)
 
-# input - accepts anything, and returns a string
-result = input('What is your name? ')
-print(f'Hello, {result}!')
-result = int(input('Enter a number here ::'))
-print(f'You entered >> {result}')
-
+# # input - accepts anything, and returns a string
+# result = input('What is your name? ')
+# print(f'Hello, {result}!')
+# result = int(input('Enter a number here ::'))  # int() to change the string input to integer
+# print(f'You entered >> {result}')
+#
 
 
