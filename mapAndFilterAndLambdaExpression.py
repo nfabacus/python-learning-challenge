@@ -11,7 +11,7 @@ my_square_list = list(map(square, my_nums))
 print(my_square_list)
 
  ## lambda expressions
-print(list(map(lambda num:num**2, my_nums)))
+print(list(map(lambda num: num**2, my_nums)))
 
 
 def splicer(mystring):
@@ -30,7 +30,7 @@ print(spliced_names)
 ### Examples of filter function
 
 def check_even(num):
-    return num%2 == 0
+    return num % 2 == 0
 
 
 num_list = [1, 2, 3, 4, 5, 6]

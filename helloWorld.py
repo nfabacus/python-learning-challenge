@@ -10,7 +10,7 @@ print(my_str[2:10:2])
 print(my_str[::-1])
 
 my_str_len = len('hello')
-print (my_str_len)
+print(my_str_len)
 
 x = "Hello, "
 y = "I am learning Python!"
@@ -38,7 +38,7 @@ another_list = [3, "bar", 4]
 print(my_list)
 print(another_list)
 total_list = my_list + another_list
-print(total_list)
+print(f'total_list is {total_list}')
 total_list[0] = "Hello"
 total_list.append(100)  # add to the end of the array.
 print(total_list)
@@ -49,20 +49,22 @@ print("popped_item2 is {}".format(popped_item2))
 print(total_list)
 
 # list -  sort
-new_list = [ 'x', 'a', 'j', 'c', 'f']
+new_list = ['x', 'a', 'j', 'c', 'f']
 num_list = [4, 2, 5, 4, 9, 7]
-new_list.sort()  # Important!  sort first then assign it to the new variable, otherwise it will return none.
+new_list.sort()
 num_list.sort()
-sorted_new_list = new_list
-sorted_num_list = num_list
-print(sorted_new_list)
-print(sorted_num_list)
+# sorted_new_list = new_list
+# sorted_num_list = num_list
+print('sorted lists:')
+print(new_list)
+print(num_list)
 new_list.reverse()
 num_list.reverse()
-print(sorted_new_list)
-print(sorted_num_list)
+print(new_list)
+print(num_list)
 
 # dictionaries - equivalent to javascript JSON object { : }
+print('')
 print('////// dictionaries /////')
 my_dict = {'fruit': 'banana', 'vegetable': 'carrot', 'numberArr': [1, 2, 3]}
 print(my_dict['fruit'])
@@ -71,6 +73,7 @@ print(my_dict['numberArr'][1])
 my_dict['greeting'] = 'Hello'
 print(my_dict)
 
+print(my_dict.keys())
 print(my_dict.keys())
 print(my_dict.values())
 print(my_dict.items())

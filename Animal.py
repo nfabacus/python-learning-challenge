@@ -1,4 +1,4 @@
-class Animal():
+class Animal:
     def __init__(self, name="animal"):
         self.name = name
         print("Animal created!")
@@ -12,9 +12,12 @@ class Animal():
     def speak(self):
         raise NotImplementedError("Subclass must implement this abstract method")
 
-myAnimal = Animal()
+
+myAnimal = Animal('Bob')
+print(myAnimal.name)
 myAnimal.who_am_i()
 myAnimal.eat()
+
 
 # Inheritance
 class Dog(Animal):
@@ -40,6 +43,7 @@ class Cat(Animal):
     def speak(self):
         return self.name + " says meow!"
 
+
 myDog = Dog("Goofy")
 myDog.who_am_i()
 myDog.eat()
@@ -49,5 +53,3 @@ myDog.take(5)
 
 myCat = Cat("Tom")
 print(myCat.speak())
-
-

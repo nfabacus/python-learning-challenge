@@ -26,7 +26,7 @@ def my_kwargs_func(**kwargs):
         print('I did not find any fruit here.')
 
 
-my_kwargs_func(fruit = "apple", veggie = 'carrot')
+my_kwargs_func(fruit="apple", veggie='carrot')
 
 
 def my_combined_func(*args, **kwargs):
@@ -35,5 +35,5 @@ def my_combined_func(*args, **kwargs):
     print('I like {} {}.'.format(args[2], kwargs['food']))
 
 
-my_combined_func(2,3, 20, food = 'eggs', animal = 'dog')
+my_combined_func(2,3, 20, food='eggs', animal='dog')
 

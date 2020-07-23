@@ -1,5 +1,4 @@
-class Dog():
-
+class Dog:
     # class object attribute
     # same for any instance of a class
     species = 'mammal'
@@ -23,7 +22,8 @@ print(my_dog.name)
 print(my_dog.spots)
 my_dog.bark(10)
 
-class Circle():
+
+class Circle:
     # Class Object Attribute
     pi = 3.14
 
@@ -39,4 +39,3 @@ class Circle():
 my_circle = Circle(radius=10)  # You do not need new keyword with Python.
 print(my_circle.get_circumference())
 print(my_circle.area)
-

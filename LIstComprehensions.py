@@ -13,7 +13,7 @@ print('<<<<<<< List comprehension >>>>>>>>>>>>')
 mylist2 = [letter for letter in mystring]
 print(mylist2)
 
-mylist = [x for x in 'word!']
+mylist = [x for x in 'world!']
 print(mylist)
 
 mylist = [x for x in range(0, 10)]
