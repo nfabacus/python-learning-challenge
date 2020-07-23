@@ -49,3 +49,6 @@ Friday, 29th May, 2020
 
 Tuesday, 16th June, 2020
 - *args and **kwargs
+
+Wednesday, 23rd July, 2020
+- Review previous codes again to refresh my memory.
