@@ -52,3 +52,7 @@ Tuesday, 16th June, 2020
 
 Wednesday, 23rd July, 2020
 - Review previous codes again to refresh my memory.
+
+Thursday, 6th August, 2020
+- Modules are just .py scripts that you call in another .py script.
+- package is a collection of modules.
