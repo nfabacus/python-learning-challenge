@@ -56,3 +56,7 @@ Wednesday, 23rd July, 2020
 Thursday, 6th August, 2020
 - Modules are just .py scripts that you call in another .py script.
 - package is a collection of modules.
+
+Monday, 10th August, 2020
+- error handling with try except else finally
+- pylint filename.py -r y
