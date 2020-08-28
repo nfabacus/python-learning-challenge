@@ -59,4 +59,5 @@ Thursday, 6th August, 2020
 
 Monday, 10th August, 2020
 - error handling with try except else finally
-- pylint filename.py -r y
+- To install pylint ```pip install pylint```
+- To run pylint on a file, ```pylint filename.py -r y```
